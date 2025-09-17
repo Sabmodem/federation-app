@@ -94,7 +94,7 @@ module.exports = {
       exposes: {
         './App': './src/App.vue',           // Full app (takes over page)
         './HelloWorld': './src/components/HelloWorld.vue', // Just the component
-        './Export.js': './src/components/ComponentWrapper.vue',        // Wrapper component
+        './Export': './src/components/ComponentWrapper.vue',        // Wrapper component
       },
       shared: sharedDependencies,
     }),
