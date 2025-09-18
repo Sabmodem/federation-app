@@ -89,7 +89,7 @@ module.exports = {
 
     // Module Federation Configuration
     new ModuleFederationPlugin({
-      name: 'remote_app',
+      name: 'federationapp',
       filename: 'remoteEntry.js',
       exposes: {
         './App': './src/App.vue',           // Full app (takes over page)
